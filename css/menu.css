@@ -1,0 +1,58 @@
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #D3E0EA;
+    overflow: hidden;
+}
+
+/* Deixando os itens da lista "flutuados" à esquerda (na prática, lado ao lado)*/
+.menu li { float: left; }
+
+.menu a { 
+    color: #276678;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+
+.menu a:hover {
+    background-color: #276678;
+    color: #D3E0EA;
+}
+
+/* Esconder a opção do menu */
+.menu li.icone {display: none;}
+
+@media screen and (max-width: 760px){
+    /* escondemos os itens do menu */
+    .menu li {display: none;}
+
+    /* Exibimos novamente o item menu */
+    .menu li.icone {
+        display: block;
+        float: right;
+    }
+    /* regra fechada(somente quando o .menu estiver com .aberto, ou seja, somente com as duas classes juntas) */
+    .menu.aberto li {
+        float: none;
+        display: inline;
+    }
+
+    /* Quando o menu está aberto, ele passa a ser a referência para o posicionamento do botão */
+    .menu.aberto {position: relative;}
+
+    /* posicionando o botão do menu á direita e acima em relação ao proprio menu */
+    .menu.aberto li.icone {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+
+/* @media screen and (max-width: 760px){
+    .menu li {float: none;}
+    .menu a {text-align: center;}
+} */

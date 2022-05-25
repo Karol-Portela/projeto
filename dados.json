@@ -1,0 +1,58 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Programador Java Pleno"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista Comercial"
+    },
+    {
+      "id": 3,
+      "titulo": "Instrutor Excel Avançado"
+    },
+    {
+      "id": 4,
+      "titulo": "Gerente de Projetos para .NET"
+    },
+    {
+      "id": 5,
+      "titulo": "Consultor de Desenvolvimento Agil"
+    },
+    {
+      "id": 6,
+      "titulo": "Programador VB.Net"
+    },
+    {
+      "id": 7,
+      "titulo": "Desenvolvedor Front-End"
+    }
+  ],
+  "candidatos": [
+    {
+      "nome": "ANA KAROLYNE PORTELA DO NASCIMENTO",
+      "data": "2022-05-24",
+      "telefone": "11946138335",
+      "email": "ana.karol.portela03@gmail.com",
+      "vaga": "Analista Comercial",
+      "id": 1
+    },
+    {
+      "nome": "sdsd",
+      "data": "2022-05-04",
+      "telefone": "11946138335",
+      "email": "ana.karol.portela03@gmail.com",
+      "vaga": "Programador VB.Net",
+      "id": 2
+    },
+    {
+      "nome": "testee",
+      "data": "2022-05-07",
+      "telefone": "(20) 54545-4545",
+      "email": "teste@teste.com",
+      "vaga": "Desenvolvedor Front-End",
+      "id": 3
+    }
+  ]
+}
